@@ -1,0 +1,13 @@
+{
+    "name": "sunil/bare-metal",
+    "description": "Bare metal composer packages",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Sunil Vaishnav",
+            "email": "sunilvaishnav28@gmail.com"
+        }
+    ],
+    "require": {}
+}
