@@ -9,5 +9,10 @@
             "email": "sunilvaishnav28@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunil": "src/"
+        }
+    }
 }
