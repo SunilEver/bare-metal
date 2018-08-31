@@ -1,4 +1,4 @@
 <?php
 
 
-Route::get('timezones/{timezone}', 'BareMetal\Http\Controllers\TimezonesController@index');
+Route::get('timezones/{timezone}', 'TimezonesController@index');

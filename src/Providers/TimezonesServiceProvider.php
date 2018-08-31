@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class TimezonesServiceProvider extends ServiceProvider
 {
     protected $providers = [
-        RouteServiceProvider::class,
+        \BareMetal\Providers\RouteServiceProvider::class,
     ];
 
     /**

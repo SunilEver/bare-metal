@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $baseDir = __DIR__.'/../';
+    protected $baseDir = __DIR__.'/../../';
 
     /**
      * This namespace is applied to your controller routes.
