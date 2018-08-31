@@ -17,7 +17,9 @@ class TimezonesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        foreach ($this->providers as $provider) {
+            $this->app->register($provider);
+        }
     }
 
     /**
