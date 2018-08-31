@@ -12,7 +12,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Sunil\\": "src/"
+            "BareMetal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BareMetal\\providers\\TimezonesServiceProvider"
+            ]
         }
     }
 }
